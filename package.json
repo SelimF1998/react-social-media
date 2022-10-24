@@ -1,12 +1,24 @@
 {
   "name": "vuexy-react-admin-dashboard",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.17.5",
-    "yarn": "1.22.19",
-    "npm": "6.14.14"
-  },
   "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "homepage": "",
   "dependencies": {
     "@casl/ability": "5.2.2",
     "@casl/react": "2.1.1",
@@ -27,7 +39,7 @@
     "axios": "0.21.1",
     "axios-mock-adapter": "1.19.0",
     "babel-plugin-react-intl": "5.1.18",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "4.5.2",
     "bs-stepper": "1.7.0",
     "chart.js": "2.9.4",
     "chroma-js": "2.1.0",
@@ -76,7 +88,6 @@
     "react-shepherd": "3.3.0",
     "react-slidedown": "2.4.5",
     "react-sortablejs": "6.0.0",
-    "react-spring": "^9.5.5",
     "react-toastify": "7.0.3",
     "reactstrap": "8.6.0",
     "recharts": "2.0.4",
@@ -86,7 +97,6 @@
     "redux-thunk": "2.3.0",
     "sass": "1.32.13",
     "screenfull": "5.0.2",
-    "serve": "^14.0.1",
     "sortablejs": "1.12.0",
     "styled-components": "5.1.1",
     "sweetalert2": "10.14.0",
@@ -99,14 +109,6 @@
     "yarn": "1.21.1",
     "yup": "0.32.8"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "serve": "craco start",
-    "build": "craco build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "devDependencies": {
     "@types/sortablejs": "^1.10.6",
     "eslint": "^7.32.0",
@@ -114,11 +116,5 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-ternary": "^2.0.0",
     "sass-loader": "^8.0.2"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ],
-  "homepage": ""
+  }
 }
