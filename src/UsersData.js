@@ -1,0 +1,87 @@
+export const UsersData = [
+  {
+    id: 1,
+    name: "John Train",
+    email: "John@gmail.com",
+    password: "123456",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "admin",
+    status: "active",
+    avatar:
+      "https://www.manatt.com/Manatt/media/Media/Images/People/LeBlanc_John_New-2020-Bio-Template-730-x-730.jpg?ext=.jpg",
+    loggedIn: false
+  },
+  {
+    id: 2,
+    name: "Mark Twain",
+    email: "Mark@gmail.com",
+    password: "1234567",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "user",
+    status: "active",
+    avatar: "/images/avatars/2.png",
+    loggedIn: false
+  },
+  {
+    id: 3,
+    name: "Peter Parker",
+    email: "petar@gmail.com",
+    password: "12345678",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "user",
+    status: "active",
+    avatar: "",
+    loggedIn: false
+  },
+  {
+    id: 4,
+    name: "James Bond",
+    email: "james@gmail.com",
+    password: "123456789",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "user",
+    status: "active",
+    avatar: "/images/avatars/4.png",
+    loggedIn: false
+  },
+  {
+    id: 5,
+    name: "John Doe",
+    email: "john@gmail.com",
+    password: "1234567890",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "user",
+    status: "active",
+    avatar: "/images/avatars/5.png",
+    loggedIn: false
+  },
+  {
+    id: 6,
+    name: "Matia Brown",
+    email: "matia@gmail.com",
+    password: "1234567890",
+    todayTasks: "",
+    tasks: [],
+    nextTasks: "",
+    reports: [],
+    role: "user",
+    status: "active",
+    avatar: "/images/avatars/5.png",
+    loggedIn: false
+  }
+]
