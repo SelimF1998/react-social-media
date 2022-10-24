@@ -32,6 +32,7 @@ const DailyReports = () => {
   const tasksList = useSelector(state => state.tasks.value)
   const usersList = useSelector(state => state.users.value)
   const loggedInUserIndex = usersList.findIndex(user => user.loggedIn === true)
+  let index = 0
 
   let connectedUser = usersList[loggedInUserIndex]
 
