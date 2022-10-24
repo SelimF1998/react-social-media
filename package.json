@@ -117,5 +117,8 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-ternary": "^2.0.0",
     "sass-loader": "^8.0.2"
+  },
+  "engines": {
+    "node": "14.17.5"
   }
 }
