@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "builder": "craco build",
+    "build": "npm i -g yarn && yarn install && yarn run builder",
     "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js src/**/*.jsx",
