@@ -1,5 +1,6 @@
 import { Home, Briefcase, Flag, BookOpen, Clipboard } from "react-feather"
 
+
 export default [
   {
     id: "home",
@@ -8,27 +9,38 @@ export default [
     navLink: "/home"
   },
   {
-    id: "tasks",
-    title: "Tasks",
+    id: "profile",
+    title: "Profile",
     icon: <Briefcase size={20} />,
-    navLink: "/tasks"
+    navLink: "/profile"
   },
   {
-    id: "tasks-groups",
-    title: "Tasks Groups",
+    id: "news-feed",
+    title: "News Feed",
     icon: <Clipboard size={20} />,
-    navLink: "/tasks-groups"
+    navLink: "/news-feed"
   },
   {
-    id: "daily-reports",
-    title: "Daily Reports",
+    id: "groups",
+    title: "Groups",
     icon: <BookOpen size={20} />,
-    navLink: "/daily-reports"
+    navLink: "/groups"
   },
   {
-    id: "milestones",
-    title: "Milestones",
+    id: "messages",
+    title: "Messages",
     icon: <Flag size={20} />,
-    navLink: "/milestones"
+    navLink: "/messages"
+  },
+  {
+    id: "notifications",
+    title: "Notifications",
+    icon: <Flag size={20} />,
+    navLink: "/notifications"
+  },{
+    id: "settings",
+    title: "Settings",
+    icon: <Flag size={20} />,
+    navLink: "/settings"
   }
 ]

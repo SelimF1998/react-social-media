@@ -2,6 +2,7 @@
 import { Suspense, lazy } from "react"
 import ReactDOM from "react-dom"
 
+
 // ** Redux Imports
 import { Provider } from "react-redux"
 import { store } from "./redux/storeConfig/store"
@@ -31,6 +32,7 @@ import "@styles/react/libs/toastify/toastify.scss"
 import "./@core/assets/fonts/feather/iconfont.css"
 import "./@core/scss/core.scss"
 import "./assets/scss/style.scss"
+import "./index.css"
 
 // ** Service Worker
 import * as serviceWorker from "./serviceWorker"

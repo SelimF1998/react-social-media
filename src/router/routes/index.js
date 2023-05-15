@@ -10,23 +10,31 @@ const DefaultRoute = "/home"
 const Routes = [
   {
     path: "/home",
-    component: lazy(() => import("../../views/Home"))
+    component: lazy(() => import("../../views/home/Home"))
   },
   {
-    path: "/tasks",
-    component: lazy(() => import("../../views/tasks/Tasks"))
+    path: "/profile",
+    component: lazy(() => import("../../views/profile/Profile"))
   },
   {
-    path: "/tasks-groups",
-    component: lazy(() => import("../../views/taskgroups/TaskGroups"))
+    path: "/news-feed",
+    component: lazy(() => import("../../views/newsfeed/NewsFeed"))
   },
   {
-    path: "/daily-reports",
-    component: lazy(() => import("../../views/reports/DailyReports"))
+    path: "/groups",
+    component: lazy(() => import("../../views/groups/Groups"))
   },
   {
-    path: "/milestones",
-    component: lazy(() => import("../../views/milestones/MileStones"))
+    path: "/messages",
+    component: lazy(() => import("../../views/messages/Messages"))
+  },
+  {
+    path: "/notifications",
+    component: lazy(() => import("../../views/notifications/Notifications"))
+  },
+  {
+    path: "/settings",
+    component: lazy(() => import("../../views/settings/Settings"))
   },
   {
     path: "/login",
